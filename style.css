@@ -1,0 +1,45 @@
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+}
+
+
+body{
+background-color: #200A35;
+color: #DCFDFD;
+}
+header{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px 0;
+border-bottom: 2px solid #DCFDFD;
+}
+
+#optionsContainer{
+margin:5px;
+border: 2px solid #DCFDFD;
+display: flex;
+flex-direction: column;
+align-items: center;
+border-radius: 50px;
+margin: 10px;
+}
+
+#EASContainer{
+border: 1px solid black;
+display: grid;
+grid-template-columns: repeat(128,1fr);
+grid-template-rows: repeat(128,1fr);
+width: 1000px;
+height: 1000px;
+flex: 0;
+}
+
+.notPainted{
+background-color: white;
+color:white
+}

@@ -70,7 +70,9 @@ unPaint(e);
 const EASContainer = document.querySelector('#EASContainer');
 
 function generateEtchASketchWithSizeInMind(){
-EASContainer.style.cssText = `grid-template-columns: repeat(${slice.value},1fr); grid-template-rows: repeat(${slice.value},1fr); `;
+clearTheDrawing();
+document.querySelector('#optionsContainer2').style.cssText = 'display: flex';
+EASContainer.style.cssText = `display: grid; grid-template-columns: repeat(${slice.value},1fr); grid-template-rows: repeat(${slice.value},1fr); `;
 
 for(let index = 0; Number(slice.value * slice.value) > index; index++){
 div = document.createElement('div');

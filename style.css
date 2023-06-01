@@ -15,30 +15,48 @@ header{
 display: flex;
 justify-content: center;
 align-items: center;
-padding: 20px 0;
+padding: 10px 0;
 border-bottom: 2px solid #DCFDFD;
+}
+
+button{
+border: 1px solid black;
+border-radius: 20px;
+padding: 4px;
+
 }
 
 #optionsContainer, #optionsContainer2{
 margin:5px;
 border: 2px solid #DCFDFD;
+background-color: #5B2975;
 display: flex;
 flex-direction: column;
 gap: 5px;
 align-items: center;
 border-radius: 50px;
-margin: 10px;
+margin: 7px;
+padding: 10px;
+}
+
+#optionsContainer2{
+display: none;
 }
 
 #EASContainer{
 border: 1px solid black;
-display: grid;
-grid-template-columns: repeat(128,1fr);
-grid-template-rows: repeat(128,1fr);
-width: 1000px;
-height: 1000px;
+display: none;
+width: 700px;
+height: 480px;
 flex: 0;
+border: 2px solid black;
+margin: auto;
 }
+
+.painted{
+background-color: black;
+}
+
 
 .notPainted{
 background-color: white;

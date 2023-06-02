@@ -26,7 +26,13 @@ padding: 4px;
 
 }
 
-#optionsContainer, #optionsContainer2{
+#optionsContainer h1{
+font-size: 25px;
+
+
+}
+
+#mainOptionContainer{
 margin:5px;
 border: 2px solid #DCFDFD;
 background-color: #5B2975;
@@ -39,18 +45,26 @@ margin: 7px;
 padding: 10px;
 }
 
+
+#mainOptionContainer{
+display: flex;
+}
+
 #optionsContainer2{
 display: none;
+flex-direction: row;
+justify-content: center;
 }
 
 #EASContainer{
 border: 1px solid black;
 display: none;
-width: 700px;
-height: 480px;
+width: 650px;
+height: 580px;
 flex: 0;
 border: 2px solid black;
 margin: auto;
+box-shadow: 10px 10px 20px black;
 }
 
 .painted{
@@ -61,4 +75,9 @@ background-color: black;
 .notPainted{
 background-color: white;
 color:white
+
+}
+
+.paintMode,.eraseMode, .rainbowMode{
+background-color: #404A52;
 }

@@ -108,6 +108,7 @@ const EASContainer = document.querySelector('#EASContainer');
 
 function generateEtchASketchWithSizeInMind(){
 clearTheDrawing();
+document.querySelector('footer').style.cssText = 'display: flex'
 document.querySelector('#optionsContainer2').style.cssText = 'display: flex';
 EASContainer.style.cssText = `display: grid; grid-template-columns: repeat(${slice.value},1fr); grid-template-rows: repeat(${slice.value},1fr); `;
 

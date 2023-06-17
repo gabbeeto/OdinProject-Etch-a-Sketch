@@ -61,6 +61,23 @@ flex-direction: row;
 justify-content: center;
 }
 
+
+#optionsContainer3{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+#smallSquare{
+width: 50px;
+height: 50px;
+border: 1px solid white;
+border-radius: 20px;
+background-color:hsl(0, 100%, 50%);
+z-index: 2;
+}
+
 #EASContainer{
 border: 1px solid black;
 display: none;
@@ -96,6 +113,5 @@ border-top:2px solid white;
 background-color: #021235;
 display: none ;
 justify-content: center;
-
 
 }

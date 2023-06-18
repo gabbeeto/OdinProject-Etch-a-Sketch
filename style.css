@@ -63,11 +63,12 @@ justify-content: center;
 
 
 #optionsContainer3{
-display: flex;
+display: none;
 flex-direction: column;
 align-items: center;
 justify-content: center;
 }
+
 
 #smallSquare{
 width: 50px;
@@ -99,7 +100,7 @@ background-color: white;
 color:white;
 }
 
-.paintMode,.eraseMode, .rainbowMode{
+.paintMode,.eraseMode, .rainbowMode, .colorMode{
 background-color: #233539;
 color: white;
 border:2px solid white;
